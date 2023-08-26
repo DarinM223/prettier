@@ -1,5 +1,5 @@
 package github.com/DarinM223/prettier
 
 require {
-  github.com/DarinM223/extended-basis 0.0.5 #84bedd6894cc8d88233ce3ae921f5259c46bc50a
+  github.com/DarinM223/extended-basis 0.0.6 #67dd4b4ba97ce9d748dd2de27dd42b9985c48022
 }

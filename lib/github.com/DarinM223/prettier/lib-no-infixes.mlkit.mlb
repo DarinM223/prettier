@@ -1,0 +1,22 @@
+(* Copyright (C) 2007 SSH Communications Security, Helsinki, Finland
+ *
+ * This code is released under the MLton license, a BSD-style license.
+ * See the LICENSE file or http://mlton.org/License for details.
+ *)
+
+local
+   ../extended-basis/basis.mlkit.mlb
+in
+   ann
+      "forceUsed"
+      "sequenceNonUnit warn"
+      "warnUnused true"
+   in
+      local
+         public/prettier.sig
+         detail/prettier.sml
+      in
+         public/export.sml
+      end
+   end
+end
